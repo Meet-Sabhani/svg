@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 752px;
+  height: 502px;
+}
+
+.container img {
+  width: 752px;
+  height: 502px;
+}
+
+.container svg {
+  position: absolute;
+  top: 0;
+  left: -3px;
+  width: 753px;
+  height: 447px;
+  mix-blend-mode: multiply;
+}
+
+.section-blue,
+.section-red,
+.section-yellow,
+.section-pink,
+.section-green {
+  /* opacity: 0; */
+  transition: 0.5s;
+}
+
+.section-blue:hover,
+.section-red:hover,
+.section-yellow:hover,
+.section-pink:hover,
+.section-green:hover {
+  opacity: 1;
+}
